@@ -12,6 +12,19 @@
   --link-color: rgb(149, 147, 100);
 }
 
+h3:hover{
+  background-color: black;
+  color: white;
+}
+
+.context.hidden{
+  display: none;
+}
+
+.context{
+  border-bottom: 0.1rem solid black;
+}
+
 html,
 body {
   background-color: var(--bg-color);
